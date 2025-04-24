@@ -54,7 +54,7 @@ public class C02AutomationExercises {
         }else System.out.println("Testing FAILED");
         //6. Enter correct email address and password
         WebElement email = driver.findElement(By.xpath("//input[@data-qa='login-email']"));
-        email.sendKeys("evren@gmail.com");
+        email.sendKeys("gdfgd@gmail.com");
         WebElement password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
         password.sendKeys("passwords");
         //7. Click 'login' button
